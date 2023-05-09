@@ -1,0 +1,29 @@
+{
+  "name": "flight-price-api",
+  "version": "1.0.0",
+  "description": "Flight-Price-API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThisisNirmalJaiswal/flight-price-api.git"
+  },
+  "keywords": [],
+  "author": "Nirmal Jasval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThisisNirmalJaiswal/flight-price-api/issues"
+  },
+  "homepage": "https://github.com/ThisisNirmalJaiswal/flight-price-api#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
